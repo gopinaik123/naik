@@ -1,0 +1,38 @@
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'groupId' contains an expression but should be a constant. @ line 30, column 11
+[WARNING] 'artifactId' contains an expression but should be a constant. @ line 31, column 14
+[WARNING] 'parent.relativePath' of POM goopi.${artifactId}:goopi.${artifactId}.schema-beans:1.0-SNAPSHOT (D:\projects\gopi pro\src\oops\schema-beans\pom.xml) points at goopi:goopi.oops instead of goopi:goopi.${artifactId}, please verify your project structure @ line 24, column 10
+[FATAL] Non-resolvable parent POM for goopi.${artifactId}:goopi.${artifactId}.schema-beans:1.0-SNAPSHOT: Could not find artifact goopi:goopi.${artifactId}:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 10
+[WARNING] 'groupId' contains an expression but should be a constant. @ line 30, column 11
+[WARNING] 'artifactId' contains an expression but should be a constant. @ line 31, column 14
+[WARNING] 'parent.relativePath' of POM goopi.${artifactId}:goopi.${artifactId}.schema-rest-beans:1.0-SNAPSHOT (D:\projects\gopi pro\src\oops\schema-rest-beans\pom.xml) points at goopi:goopi.oops instead of goopi:goopi.${artifactId}, please verify your project structure @ line 24, column 10
+[FATAL] Non-resolvable parent POM for goopi.${artifactId}:goopi.${artifactId}.schema-rest-beans:1.0-SNAPSHOT: Could not find artifact goopi:goopi.${artifactId}:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 10
+[WARNING] 'groupId' contains an expression but should be a constant. @ line 30, column 11
+[WARNING] 'artifactId' contains an expression but should be a constant. @ line 31, column 14
+[WARNING] 'parent.relativePath' of POM goopi.${artifactId}:goopi.${artifactId}.app:1.0-SNAPSHOT (D:\projects\gopi pro\src\oops\app\pom.xml) points at goopi:goopi.oops instead of goopi:goopi.${artifactId}, please verify your project structure @ line 24, column 10
+[FATAL] Non-resolvable parent POM for goopi.${artifactId}:goopi.${artifactId}.app:1.0-SNAPSHOT: Could not find artifact goopi:goopi.${artifactId}:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 10
+[ERROR] Non-resolvable import POM: Could not find artifact goopi:goopi.bom:pom:1.0-SNAPSHOT @ line 47, column 16
+[ERROR] Non-resolvable import POM: org.bndly.common:org.bndly.common.applications-3rd-party-bom:pom:4.0.0 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced @ line 54, column 16
+ @ 
+[ERROR] The build could not read 4 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project goopi.${artifactId}:goopi.${artifactId}.schema-beans:1.0-SNAPSHOT (D:\projects\gopi pro\src\oops\schema-beans\pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for goopi.${artifactId}:goopi.${artifactId}.schema-beans:1.0-SNAPSHOT: Could not find artifact goopi:goopi.${artifactId}:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 10 -> [Help 2]
+[ERROR]   
+[ERROR]   The project goopi.${artifactId}:goopi.${artifactId}.schema-rest-beans:1.0-SNAPSHOT (D:\projects\gopi pro\src\oops\schema-rest-beans\pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for goopi.${artifactId}:goopi.${artifactId}.schema-rest-beans:1.0-SNAPSHOT: Could not find artifact goopi:goopi.${artifactId}:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 10 -> [Help 2]
+[ERROR]   
+[ERROR]   The project goopi.${artifactId}:goopi.${artifactId}.app:1.0-SNAPSHOT (D:\projects\gopi pro\src\oops\app\pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for goopi.${artifactId}:goopi.${artifactId}.app:1.0-SNAPSHOT: Could not find artifact goopi:goopi.${artifactId}:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 10 -> [Help 2]
+[ERROR]   
+[ERROR]   The project goopi:goopi.oops:1.0-SNAPSHOT (D:\projects\gopi pro\src\oops\pom.xml) has 2 errors
+[ERROR]     Non-resolvable import POM: Could not find artifact goopi:goopi.bom:pom:1.0-SNAPSHOT @ line 47, column 16 -> [Help 2]
+[ERROR]     Non-resolvable import POM: org.bndly.common:org.bndly.common.applications-3rd-party-bom:pom:4.0.0 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced @ line 54, column 16 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
